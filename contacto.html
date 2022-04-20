@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deportes</title>
+    <!-- AUTOR -->
+    <meta name="author" content="JaccN7" />
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- MI CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- FUENTE FIRA SANS " https://fonts.google.com/specimen/Fira+Sans?query=fira " -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <!-- Font Awesome icons (VERSIÓN GRATUITA) -->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-lg text-uppercase nav fixed-top">
+        <button class="navbar-toggler centrar" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon ">
+                <i class="fas fa-bars"></i>
+            </span>
+        </button> <a class="navbar-brand enlace" href="index.html">Natación</a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item">
+                    <a class="nav-link enlace" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link enlace" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link enlace" href="tienda.html">Tienda</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid file mb-5">
+        <br/>
+        <div class="row tarjeta">
+            <!-- FORMULARIO DE CONTACTO -->
+            <div class="col-md-6">
+                <h3 class="centrar">Contactar</h3>
+                <div class="card mb-5">
+                    <div class="card-body">
+                        <form role="form">
+                            <div class="form-group">
+
+                                <label for="txtNombre">
+                                    Nombre
+                                </label>
+                                <input type="text" class="form-control" placeholder="Ingresa tu nombre..."
+                                    id="txtNombre" required />
+                            </div>
+                            <div class="form-group">
+
+                                <label for="txtEmail">
+                                    Email
+                                </label>
+                                <input type="email" class="form-control"
+                                    placeholder="Ingresa tu correo (correo@example.com)..." id="txtEmail" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="txtMensaje">Mensaje</label>
+                                <textarea class="form-control" id="txtMensaje" type="text"
+                                    placeholder="Ingresa tu mensaje..." style="height: 10rem" required></textarea>
+                            </div>
+                            <div class="centrar"><button type="submit" class="btn btn-primary">
+                                    Enviar
+                                </button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MAPA CON UBICACIÓN DE LA CIUDAD -->
+            <div class="col-md-6 centrar">
+                <h3>Tienda artículos deportivos</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1356.8855143590586!2d-71.54575840851633!3d-33.007148167210445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689dd6849a450b9%3A0x9baa1aa6beb79f00!2sDecathlon%20Vi%C3%B1a%20del%20Mar!5e0!3m2!1ses-419!2scl!4v1650411217017!5m2!1ses-419!2scl"
+                    class="map" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- PIÉ DE PÁGINA -->
+    <footer class="centrar fixed-bottom">
+        <div class="container"><small><a href="http://plataforma5.iicap.cl/" class="enlace">Bootcamp
+                    2022 - Natación</a></small></div>
+    </footer>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
